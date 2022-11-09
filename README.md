@@ -66,7 +66,11 @@ Nesse vídeo apresentamos como copiar os dados existentes do banco de dados SAP 
 Apresentamos nesse vídeo como carregar planilhas eletrônicas do Azure Data Lake Storage removendo os registros duplicados, e configurando o gatilho para executar quando um novo arquivo é criado.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-remover-registros-duplicados](http://www.fabioms.com.br/?url=azure-data-factory-remover-registros-duplicados)  
 
-## [15. Copiar Dados do Sharepoint no Azure Data Factory](/azure-data-factory-copiar-dados-sharepoint.md)
+## [15. Extrair contéudo de Arquivo Compactado no Azure Data Factory](/azure-data-factory-extrair-conteudo-arquivo-zip.md)
+Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) existente no Github e descompactar no Azure Data Lake utilizando Azure Data Factory.
+> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip](http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip)  
+
+## [16. Copiar Dados do Sharepoint no Azure Data Factory](/azure-data-factory-copiar-dados-sharepoint.md)
 Apresentamos nesse vídeo como conceder acesso de aplicativo no Sharepoint para obter os dados de uma lista e armazenar em tabela do banco de dados Azure SQL utilizando o Azure Data Factory.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-copiar-dados-sharepoint](http://www.fabioms.com.br/?url=azure-data-factory-copiar-dados-sharepoint)  
 
