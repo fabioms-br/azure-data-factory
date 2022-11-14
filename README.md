@@ -38,17 +38,17 @@ Podemos utilizar o Data Flow do Azure Data Factory para agregar os valores de um
 Apresentamos como utilizar o Power Query do Azure Data Factory para combinar valores de tabelas e salvar o resultado em formato CSV no Azure Blob Storage.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-combinar-tabelas](http://www.fabioms.com.br/?url=azure-data-factory-combinar-tabelas)  
 
-## [8. Conectar Recursos On-premises no Azure Data Factory](/azure-data-factory-conectar-on-premises.md)
-Apresentamos nesse vídeo como conectar o Azure Data Factory aos recursos computacionais da infraestrutura on-premises utilizando o Integration Runtime Auto-Hospedado (Self-Hosted). 
-> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises](http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises)  
-
-## [9. O que é Azure Data Factory? Como criar e quanto custa?](/azure-data-factory-quanto-custa-como-criar-recurso.md)
+## [8. O que é Azure Data Factory? Como criar e quanto custa?](/azure-data-factory-quanto-custa-como-criar-recurso.md)
 Apresentamos nesse vídeo iremos conhecer o que é o Azure Data Factory, os seus elementos essencias como Linked Services, Pipelines, Datasets, entre outros.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-quanto-custa-como-criar-recurso](http://www.fabioms.com.br/?url=azure-data-factory-quanto-custa-como-criar-recurso)  
 
-## [10. Controle de versão no Azure Data Factory com Azure DevOps](/azure-data-factory-controle-versao-devops.md)
+## [9. Controle de versão no Azure Data Factory com Azure DevOps](/azure-data-factory-controle-versao-devops.md)
 Apresentamos nesse vídeo como controlar a versão dos objetos do Azure Data Factory utilizando a integração do repositório do Azure DevOps, facilitando na colaboração entre equipes e nas mudanças executadas no código JSON associado.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-controle-versao-devops](http://www.fabioms.com.br/?url=azure-data-factory-controle-versao-devops)  
+
+## [10. Conectar Recursos On-premises no Azure Data Factory](/azure-data-factory-conectar-on-premises.md)
+Apresentamos nesse vídeo como conectar o Azure Data Factory aos recursos computacionais da infraestrutura on-premises utilizando o Integration Runtime Auto-Hospedado (Self-Hosted). 
+> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises](http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises)  
 
 ## [11. Web Scraping no Azure Data Factory](/azure-data-factory-webscraping-webtable.md)
 Nesse vídeo apresentamos a técnica web scraping utilizando o Azure Data Factory, extraindo os valores de uma tabela existente em página da internet de cotações da bolsa de valores.
@@ -66,11 +66,7 @@ Nesse vídeo apresentamos como copiar os dados existentes do banco de dados SAP 
 Apresentamos nesse vídeo como carregar planilhas eletrônicas do Azure Data Lake Storage removendo os registros duplicados, e configurando o gatilho para executar quando um novo arquivo é criado.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-remover-registros-duplicados](http://www.fabioms.com.br/?url=azure-data-factory-remover-registros-duplicados)  
 
-## [15. Extrair contéudo de Arquivo Compactado no Azure Data Factory](/azure-data-factory-extrair-conteudo-arquivo-zip.md)
-Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) existente no Github e descompactar no Azure Data Lake utilizando Azure Data Factory.
-> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip](http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip)  
-
-## [16. Copiar Dados do Sharepoint no Azure Data Factory](/azure-data-factory-copiar-dados-sharepoint.md)
+## [15. Copiar Dados do Sharepoint no Azure Data Factory](/azure-data-factory-copiar-dados-sharepoint.md)
 Apresentamos nesse vídeo como conceder acesso de aplicativo no Sharepoint para obter os dados de uma lista e armazenar em tabela do banco de dados Azure SQL utilizando o Azure Data Factory.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-copiar-dados-sharepoint](http://www.fabioms.com.br/?url=azure-data-factory-copiar-dados-sharepoint)  
 
@@ -82,3 +78,6 @@ Apresentamos nesse vídeo como conceder acesso de aplicativo no Sharepoint para 
 ```
 **Microsoft Learn**
 [https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/add-in-permissions-in-sharepoint](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/add-in-permissions-in-sharepoint?WT.mc_id=DP-MVP-5004844)
+## [16. Extrair contéudo de Arquivo Compactado no Azure Data Factory](/azure-data-factory-extrair-conteudo-arquivo-zip.md)
+Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) existente no Github e descompactar no Azure Data Lake utilizando Azure Data Factory.
+> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip](http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip)  
