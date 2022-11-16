@@ -1,0 +1,22 @@
+{
+    "name": "YahooDelimitedText",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "WindowsServer",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "FileServerLocation",
+                "fileName": "yahoo-msft.csv"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

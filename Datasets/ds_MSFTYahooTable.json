@@ -1,0 +1,15 @@
+{
+    "name": "MSFTYahooTable",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "YahooWebService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "WebTable",
+        "schema": [],
+        "typeProperties": {
+            "index": 0
+        }
+    }
+}
