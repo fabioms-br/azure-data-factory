@@ -1,0 +1,111 @@
+{
+    "name": "ds_AzureSqlOrders",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "Order ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Employee ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Customer ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Order Date",
+                "type": "datetime2",
+                "scale": 0
+            },
+            {
+                "name": "Shipped Date",
+                "type": "datetime2",
+                "scale": 0
+            },
+            {
+                "name": "Shipper ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Ship Name",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Ship Address",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Ship City",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Ship State/Province",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Ship ZIP/Postal Code",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Ship Country/Region",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Shipping Fee",
+                "type": "decimal",
+                "precision": 19,
+                "scale": 4
+            },
+            {
+                "name": "Taxes",
+                "type": "decimal",
+                "precision": 19,
+                "scale": 4
+            },
+            {
+                "name": "Payment Type",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Paid Date",
+                "type": "datetime2",
+                "scale": 0
+            },
+            {
+                "name": "Notes",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Tax Rate",
+                "type": "float",
+                "precision": 15
+            },
+            {
+                "name": "Tax Status",
+                "type": "tinyint",
+                "precision": 3
+            },
+            {
+                "name": "Status ID",
+                "type": "tinyint",
+                "precision": 3
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "ORDERS"
+        }
+    }
+}

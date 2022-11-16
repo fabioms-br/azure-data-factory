@@ -1,0 +1,15 @@
+{
+    "name": "MSAccessOrders",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "SelfHostedMicrosoftAccess",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "MicrosoftAccessTable",
+        "schema": [],
+        "typeProperties": {
+            "tableName": "`Orders`"
+        }
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "name": "01-MSAccessToSQL",
+    "properties": {
+        "activities": [
+            {
+                "name": "Copy data1",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "MicrosoftAccessSource"
+                    },
+                    "sink": {
+                        "type": "AzureSqlSink",
+                        "tableOption": "autoCreate",
+                        "disableMetricsCollection": false
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "name": "Order ID",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "Order ID",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Employee ID",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "Employee ID",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Customer ID",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "Customer ID",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Order Date",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "Order Date",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Shipped Date",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "Shipped Date",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Shipper ID",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "Shipper ID",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Ship Name",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Ship Name",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Ship Address",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Ship Address",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Ship City",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Ship City",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Ship State/Province",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Ship State/Province",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Ship ZIP/Postal Code",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Ship ZIP/Postal Code",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Ship Country/Region",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Ship Country/Region",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Shipping Fee",
+                                    "type": "Decimal"
+                                },
+                                "sink": {
+                                    "name": "Shipping Fee",
+                                    "type": "Decimal",
+                                    "physicalType": "Decimal"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Taxes",
+                                    "type": "Decimal"
+                                },
+                                "sink": {
+                                    "name": "Taxes",
+                                    "type": "Decimal",
+                                    "physicalType": "Decimal"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Payment Type",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Payment Type",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Paid Date",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "Paid Date",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Notes",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Notes",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Tax Rate",
+                                    "type": "Double"
+                                },
+                                "sink": {
+                                    "name": "Tax Rate",
+                                    "type": "Double",
+                                    "physicalType": "Double"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Tax Status",
+                                    "type": "Byte"
+                                },
+                                "sink": {
+                                    "name": "Tax Status",
+                                    "type": "Byte",
+                                    "physicalType": "Byte"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Status ID",
+                                    "type": "Byte"
+                                },
+                                "sink": {
+                                    "name": "Status ID",
+                                    "type": "Byte",
+                                    "physicalType": "Byte"
+                                }
+                            }
+                        ],
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_MSAccessOrders",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_AzureSqlOrders",
+                        "type": "DatasetReference"
+                    }
+                ]
+            }
+        ],
+        "annotations": []
+    }
+}
