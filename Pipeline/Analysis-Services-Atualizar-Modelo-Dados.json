@@ -1,0 +1,59 @@
+{
+    "name": "AnalysisServicesRefreshs",
+    "properties": {
+        "activities": [
+            {
+                "name": "Web1",
+                "type": "WebActivity",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "url": {
+                        "value": "https://@{pipeline().parameters.Region}.asazure.windows.net/servers/@{pipeline().parameters.ServerName}/models/@{pipeline().parameters.ModelName}/refreshes",
+                        "type": "Expression"
+                    },
+                    "method": "POST",
+                    "body": {
+                        "Type": "dataOnly",
+                        "CommitMode": "transactional",
+                        "MaxParallelism": "2",
+                        "RetryCount": "2",
+                        "Objects": [
+                            {
+                                "table": "SUP_IES_2019"
+                            }
+                        ]
+                    },
+                    "authentication": {
+                        "type": "MSI",
+                        "resource": "https://*.asazure.windows.net"
+                    }
+                }
+            }
+        ],
+        "parameters": {
+            "ServerName": {
+                "type": "string",
+                "defaultValue": "[Servername]"
+            },
+            "ModelName": {
+                "type": "string",
+                "defaultValue": "[Database]"
+            },
+            "Region": {
+                "type": "string",
+                "defaultValue": "eastus"
+            }
+        },
+        "annotations": [],
+        "lastPublishTime": "2022-08-20T16:42:47Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
