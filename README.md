@@ -81,3 +81,7 @@ Apresentamos nesse vídeo como conceder acesso de aplicativo no Sharepoint para 
 ## [16. Extrair contéudo de Arquivo Compactado no Azure Data Factory](/azure-data-factory-extrair-conteudo-arquivo-zip.md)
 Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) existente no Github e descompactar no Azure Data Lake utilizando Azure Data Factory.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip](http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip)  
+
+## [17. Executar Pipeline em Loop no Azure Data Factory](/azure-data-factory-pipeline-loop-parametros.md)
+Apresentamos nesse vídeo como executar pipeline dentro de uma interação loop para modular e reaproveitar tarefas executadas, nesse caso, a extração de vários arquivos compactados no Github para Azure Data Lake.
+> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-pipeline-loop-parametros](http://www.fabioms.com.br/?url=azure-data-factory-pipeline-loop-parametros)  
