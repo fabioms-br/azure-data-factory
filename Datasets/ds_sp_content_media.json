@@ -1,0 +1,16 @@
+{
+    "name": "ds_sp_content_media",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "SharePointOnline",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "SharePointOnlineListResource",
+        "schema": [],
+        "typeProperties": {
+            "listName": "ContentMedia"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

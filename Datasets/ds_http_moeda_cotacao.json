@@ -1,0 +1,67 @@
+{
+    "name": "ds_http_moeda_cotacao",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "BCBHttpServer",
+            "type": "LinkedServiceReference",
+            "parameters": {
+                "URLSource": "https://ptax.bcb.gov.br/ptax_internet/"
+            }
+        },
+        "parameters": {
+            "DownloadID": {
+                "type": "string",
+                "defaultValue": "61"
+            },
+            "DataInicio": {
+                "type": "string",
+                "defaultValue": "03/10/2022"
+            },
+            "DataFim": {
+                "type": "string",
+                "defaultValue": "04/10/2022"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": {
+                    "value": "consultaBoletim.do?method=gerarCSVFechamentoMoedaNoPeriodo&ChkMoeda=@{dataset().DownloadID}&DATAINI=@{dataset().DataInicio}&DATAFIM=@{dataset().DataFim}",
+                    "type": "Expression"
+                }
+            },
+            "columnDelimiter": ";",
+            "escapeChar": "\\",
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

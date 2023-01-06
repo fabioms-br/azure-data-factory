@@ -1,0 +1,25 @@
+{
+    "name": "ds_sqldb",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "NomeTabela": {
+                "type": "string",
+                "defaultValue": "Content_Media"
+            }
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [],
+        "typeProperties": {
+            "table": {
+                "value": "@dataset().NomeTabela",
+                "type": "Expression"
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

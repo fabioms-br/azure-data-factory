@@ -1,0 +1,635 @@
+{
+    "name": "sharepoint-para-azure-sql",
+    "properties": {
+        "activities": [
+            {
+                "name": "Copiar-Dados",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "SharePointOnlineListSource",
+                        "httpRequestTimeout": "00:05:00"
+                    },
+                    "sink": {
+                        "type": "AzureSqlSink",
+                        "writeBatchSize": 1000,
+                        "writeBehavior": "insert",
+                        "sqlWriterUseTableLock": false,
+                        "tableOption": "autoCreate",
+                        "disableMetricsCollection": false
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "name": "AutoPublish",
+                                    "type": "Boolean"
+                                },
+                                "sink": {
+                                    "name": "AutoPublish",
+                                    "type": "Boolean",
+                                    "physicalType": "Boolean"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "CategoryId",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "CategoryId",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Title",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Title",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "TitleURL",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "TitleURL",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PublishedLink",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "PublishedLink",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Description",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Description",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ExcerptHTML",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ExcerptHTML",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "BodyHTML",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "BodyHTML",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "TwitterMessage",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "TwitterMessage",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "StatusValue",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "StatusValue",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PostTypeValue",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "PostTypeValue",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PostStatus",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "PostStatus",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ScheduledTo",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ScheduledTo",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "DraftDueBy",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "DraftDueBy",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PublishBy",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "PublishBy",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PublishLast",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "PublishLast",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ContentTypeValue",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ContentTypeValue",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "References",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "References",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "FirstComment",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "FirstComment",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "DateCount",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "DateCount",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "DateCountNumber",
+                                    "type": "Double"
+                                },
+                                "sink": {
+                                    "name": "DateCountNumber",
+                                    "type": "Double",
+                                    "physicalType": "Double"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ImageURL",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ImageURL",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ImageCardURL",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ImageCardURL",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "OneDriveFolder",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "OneDriveFolder",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoId",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoId",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoViewCount",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoViewCount",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoLikeCount",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoLikeCount",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoCommentCount",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoCommentCount",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Id",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "Id",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ContentTypeID",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ContentTypeID",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ContentType0",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ContentType0",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Modified",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "Modified",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Created",
+                                    "type": "DateTime"
+                                },
+                                "sink": {
+                                    "name": "Created",
+                                    "type": "DateTime",
+                                    "physicalType": "DateTime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "AuthorId",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "AuthorId",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ModifiedById",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "ModifiedById",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Owshiddenversion",
+                                    "type": "Int32"
+                                },
+                                "sink": {
+                                    "name": "Owshiddenversion",
+                                    "type": "Int32",
+                                    "physicalType": "Int32"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Version",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Version",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Path",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Path",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ComplianceAssetId",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "ComplianceAssetId",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Subtitles",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Subtitles",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Chapters",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "Chapters",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoHasSubtitles",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoHasSubtitles",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoHasChapters",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoHasChapters",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoHasAds",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoHasAds",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoSpeech",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoSpeech",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoHasPin",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoHasPin",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "VideoAnalyticsUpdated",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "VideoAnalyticsUpdated",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "QueueTimeSlotValue",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "QueueTimeSlotValue",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PublishByYear",
+                                    "type": "Double"
+                                },
+                                "sink": {
+                                    "name": "PublishByYear",
+                                    "type": "Double",
+                                    "physicalType": "Double"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "DatePublishByNumber",
+                                    "type": "Double"
+                                },
+                                "sink": {
+                                    "name": "DatePublishByNumber",
+                                    "type": "Double",
+                                    "physicalType": "Double"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "GithubText",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "GithubText",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "CategoryAdditionalId",
+                                    "type": "String"
+                                },
+                                "sink": {
+                                    "name": "CategoryAdditionalId",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                }
+                            }
+                        ],
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_sp_content_media",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_sqldb_content_media",
+                        "type": "DatasetReference"
+                    }
+                ]
+            }
+        ],
+        "folder": {
+            "name": "social-network"
+        },
+        "annotations": [],
+        "lastPublishTime": "2022-10-29T12:58:03Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

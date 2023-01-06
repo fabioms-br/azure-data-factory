@@ -1,0 +1,195 @@
+{
+    "name": "obter-moeda-cotacao",
+    "properties": {
+        "activities": [
+            {
+                "name": "Obter Dados",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "HttpReadSettings",
+                            "requestMethod": "GET"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "AzureSqlSink",
+                        "writeBehavior": "insert",
+                        "sqlWriterUseTableLock": false
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 1
+                                },
+                                "sink": {
+                                    "name": "Data",
+                                    "type": "DateTime",
+                                    "physicalType": "datetime"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 2
+                                },
+                                "sink": {
+                                    "name": "Moeda_Id",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 3
+                                },
+                                "sink": {
+                                    "name": "Tipo",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 4
+                                },
+                                "sink": {
+                                    "name": "Moeda",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 5
+                                },
+                                "sink": {
+                                    "name": "Taxa_Compra",
+                                    "type": "Decimal",
+                                    "physicalType": "decimal",
+                                    "scale": 4,
+                                    "precision": 29
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 6
+                                },
+                                "sink": {
+                                    "name": "Taxa_Venda",
+                                    "type": "Decimal",
+                                    "physicalType": "decimal",
+                                    "scale": 4,
+                                    "precision": 29
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 7
+                                },
+                                "sink": {
+                                    "name": "Paridade_Compra",
+                                    "type": "Decimal",
+                                    "physicalType": "decimal",
+                                    "scale": 4,
+                                    "precision": 29
+                                }
+                            },
+                            {
+                                "source": {
+                                    "type": "String",
+                                    "ordinal": 8
+                                },
+                                "sink": {
+                                    "name": "Paridade_Venda",
+                                    "type": "Decimal",
+                                    "physicalType": "decimal",
+                                    "scale": 4,
+                                    "precision": 29
+                                }
+                            }
+                        ],
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false,
+                            "dateTimeFormat": "ddMMyyyy",
+                            "culture": "pt-br"
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_http_moeda_cotacao",
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "DownloadID": {
+                                "value": "@pipeline().parameters.DownloadID",
+                                "type": "Expression"
+                            },
+                            "DataInicio": {
+                                "value": "@pipeline().parameters.DataInicio",
+                                "type": "Expression"
+                            },
+                            "DataFim": {
+                                "value": "@pipeline().parameters.DataFim",
+                                "type": "Expression"
+                            }
+                        }
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_sqldb",
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "NomeTabela": "Moeda_Cotacoes"
+                        }
+                    }
+                ]
+            }
+        ],
+        "parameters": {
+            "DownloadID": {
+                "type": "string",
+                "defaultValue": "61"
+            },
+            "DataInicio": {
+                "type": "string",
+                "defaultValue": "03/10/2022"
+            },
+            "DataFim": {
+                "type": "string",
+                "defaultValue": "04/10/2022"
+            }
+        },
+        "folder": {
+            "name": "finance"
+        },
+        "annotations": [],
+        "lastPublishTime": "2022-10-31T01:12:30Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
