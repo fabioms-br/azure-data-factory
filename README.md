@@ -15,7 +15,7 @@
 Podemos migrar os pacotes do Integration Services para o Azure Data Factory utilizando a ferramenta Microsoft Visual Studio.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-ssis-migrar-pacotes](http://www.fabioms.com.br/?url=azure-data-factory-ssis-migrar-pacotes)  
 
-## [3. Ler Arquivo XML de Nota Fiscal Eletrônica no Azure Data Factory](/azure-data-factory-ler-nota-fiscal.md)
+## [3. Como ler arquivo XML de nota fiscal eletrônica no Azure Data Factory](/azure-data-factory-ler-nota-fiscal.md)
 Apresentamos nesse vídeo como ler o arquivo XML de nota fiscal eletrônica armazenado no Azure Blob Storage e carregar seu conteúdo no Azure SQL Database.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-ler-nota-fiscal](http://www.fabioms.com.br/?url=azure-data-factory-ler-nota-fiscal)  
 
@@ -25,16 +25,15 @@ Conhecer nesse vídeo a palestra que realizei no evento MVPConf 2020.
 Organizado por profissionais reconhecidos pela Microsoft na área em que atuam e os valores dos ingressos são repassados a instituições de caridades.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-mvpconf-2020](http://www.fabioms.com.br/?url=azure-data-factory-mvpconf-2020)  
 
-## [5. Copiar Dados do Banco de Dados MS Access | Azure Data Factory](/azure-data-factory-copiar-banco-msaccess.md)
-Nesse vídeo apresentamos como copiar dados de um banco de dados MS Access existente em um servidor on-premises para o Azure SQL Database.
+## [5. Como Copiar Dados do Banco de Dados MS Access | Azure Data Factory](/azure-data-factory-copiar-banco-msaccess.md)
+Apresentamos nesse vídeo como copiar dados de um banco de dados MS Access existente em um servidor on-premises para o Azure SQL Database.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-copiar-banco-msaccess](http://www.fabioms.com.br/?url=azure-data-factory-copiar-banco-msaccess)  
 
-## [6. Combinar Valores de Tabelas | Dataflow no Azure Data Factory](/azure-data-factory-dataflow-combinar-tabelas.md)
-Podemos utilizar o Data Flow do Azure Data Factory para agregar os valores de uma tabela e combinar duas tabelas salvando o resultado no Azure Blob Storage em formato CSV.
-
+## [6. Como Combinar Valores de Tabelas com Dataflow no Azure Data Factory](/azure-data-factory-dataflow-combinar-tabelas.md)
+Apresentamos nesse vídeo como utilizar o Data Flow do Azure Data Factory para agregar os valores e combinar tabelas, salvando o resultado em formato CSV no Azure Data Lake.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-dataflow-combinar-tabelas](http://www.fabioms.com.br/?url=azure-data-factory-dataflow-combinar-tabelas)  
 
-## [7. Combinar Valores de Tabelas | Power Query no Azure Data Factory](/azure-data-factory-combinar-tabelas.md)
+## [7. Como Combinar Valores de Tabelas com Power Query no Azure Data Factory](/azure-data-factory-combinar-tabelas.md)
 Apresentamos como utilizar o Power Query do Azure Data Factory para combinar valores de tabelas e salvar o resultado em formato CSV no Azure Blob Storage.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-combinar-tabelas](http://www.fabioms.com.br/?url=azure-data-factory-combinar-tabelas)  
 
@@ -50,7 +49,7 @@ Apresentamos nesse vídeo como controlar a versão dos objetos do Azure Data Fac
 Apresentamos nesse vídeo como conectar o Azure Data Factory aos recursos computacionais da infraestrutura on-premises utilizando o Integration Runtime Auto-Hospedado (Self-Hosted). 
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises](http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises)  
 
-## [11. Web Scraping no Azure Data Factory](/azure-data-factory-webscraping-webtable.md)
+## [11. Como Fazer Web Scraping no Azure Data Factory](/azure-data-factory-webscraping-webtable.md)
 Nesse vídeo apresentamos a técnica web scraping utilizando o Azure Data Factory, extraindo os valores de uma tabela existente em página da internet de cotações da bolsa de valores.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-webscraping-webtable](http://www.fabioms.com.br/?url=azure-data-factory-webscraping-webtable)  
 
@@ -78,7 +77,7 @@ Apresentamos nesse vídeo como conceder acesso de aplicativo no Sharepoint para 
 ```
 **Microsoft Learn**
 [https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/add-in-permissions-in-sharepoint](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/add-in-permissions-in-sharepoint?WT.mc_id=DP-MVP-5004844)
-## [16. Extrair contéudo de Arquivo Compactado no Azure Data Factory](/azure-data-factory-extrair-conteudo-arquivo-zip.md)
+## [16. Como Extrair contéudo de Arquivo Compactado no Azure Data Factory](/azure-data-factory-extrair-conteudo-arquivo-zip.md)
 Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) existente no Github e descompactar no Azure Data Lake utilizando Azure Data Factory.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip](http://www.fabioms.com.br/?url=azure-data-factory-extrair-conteudo-arquivo-zip)  
 

@@ -1,6 +1,6 @@
-## Ler Arquivo XML de Nota Fiscal Eletrônica no Azure Data Factory
+## Como ler arquivo XML de nota fiscal eletrônica no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/eNCwKQRIzY4.png" alt="Ler Arquivo XML de Nota Fiscal Eletrônica no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/eNCwKQRIzY4.png" alt="Como ler arquivo XML de nota fiscal eletrônica no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como ler o arquivo XML de nota fiscal eletrônica armazenado no Azure Blob Storage e carregar seu conteúdo no Azure SQL Database.
 
@@ -18,17 +18,17 @@ Iremos conhecer as técnicas:
 🔹Visualizar os dados na ferramenta SSMS (SQL QUERY);
 
 ▶️ Acesse o vídeo no link abaixo:
-http://www.fabioms.com.br/?url=azure-data-factory-ler-nota-fiscal
+https://www.fabioms.com.br/?url=azure-data-factory-ler-nota-fiscal
 
 📁 Arquivos disponíveis no GitHub, não esquece de seguir:
-http://www.fabioms.com.br/?url=github
+https://www.fabioms.com.br/?url=github
 
 😉 Gostou do conteúdo? Inscreva-se também no canal:
-http://www.fabioms.com.br/?url=youtube-subscribe 
+https://www.fabioms.com.br/?url=youtube-subscribe 
 
 🎁 Banco de Dados para Estudo SQL:
 Se você quer uma base para estudar liguagem #SQL ou #BusinessIntelligence, elaborar seu curso ou treinamento, aqui você encontrará material. 
 Contribua e cite o projeto para fortalecê-lo!
-http://www.fabioms.com.br/?url=github-estudados
+https://www.fabioms.com.br/?url=github-estudados
 
 #microsoft #dataplatform #azure #datafactory #data #blobstorage #notafiscal #xml #mvp #DicaDoFabinho

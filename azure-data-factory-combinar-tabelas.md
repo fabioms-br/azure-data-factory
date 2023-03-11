@@ -1,6 +1,6 @@
-## Combinar Valores de Tabelas | Power Query no Azure Data Factory
+## Como Combinar Valores de Tabelas com Power Query no Azure Data Factory
 
-<img src="https://fabioms.com.br/uploads/youtube/7AYLrfdgalc.png" alt="Combinar Valores de Tabelas | Power Query no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br/uploads/youtube/7AYLrfdgalc.png" alt="Como Combinar Valores de Tabelas com Power Query no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos como utilizar o Power Query do Azure Data Factory para combinar valores de tabelas e salvar o resultado em formato CSV no Azure Blob Storage.
 
@@ -18,13 +18,16 @@ Iremos conhecer as técnicas:
 🔹Executar o Pipeline utilizando o Runtime padrão;  
 🔹Exibir resultado utilizando a visualização do Azure Blob Storage;  
 
+🎁Conheça o Projeto Banco de Dados de Estudo gratuito, disponível para comunidade no Repositório Github.
+http://www.fabioms.com.br/?url=github-estudados
+
 ▶️ Acesse o vídeo no link abaixo:
-http://www.fabioms.com.br/?url=azure-data-factory-combinar-tabelas
+https://www.fabioms.com.br/?url=azure-data-factory-combinar-tabelas
 
 📁 Arquivos disponíveis no GitHub:
-http://www.fabioms.com.br/?url=github
+https://www.fabioms.com.br/?url=github
 
 😉 Gostou do conteúdo? Inscreva-se também no canal:
-http://www.fabioms.com.br/?url=youtube-subscribe 
+https://www.fabioms.com.br/?url=youtube-subscribe 
 
 #microsoft #dataplatform #azure #datafactory #powerquery #DicaDoFabinho
