@@ -49,12 +49,14 @@ Apresentamos nesse vídeo como controlar a versão dos objetos do Azure Data Fac
 Apresentamos nesse vídeo como conectar o Azure Data Factory aos recursos computacionais da infraestrutura on-premises utilizando o Integration Runtime Auto-Hospedado (Self-Hosted). 
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises](http://www.fabioms.com.br/?url=azure-data-factory-conectar-on-premises)  
 
-## [11. Como Fazer Web Scraping no Azure Data Factory](/azure-data-factory-webscraping-webtable.md)
-Nesse vídeo apresentamos a técnica web scraping utilizando o Azure Data Factory, extraindo os valores de uma tabela existente em página da internet de cotações da bolsa de valores.
+## [11. #069 Como Fazer Web Scraping no Azure Data Factory](/azure-data-factory-webscraping-webtable.md)
+Apresentamos nesse vídeo a técnica de garinpar dados conhecida como web scraping utilizando o Azure Data Factory, extraindo os valores de cotações da bolsa de valores em tabela de página da internet
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-webscraping-webtable](http://www.fabioms.com.br/?url=azure-data-factory-webscraping-webtable)  
 
 ## [12. Extrair Dados por conteúdo Dinâmico no Azure Data Factory](/azure-data-factory-extrair-dados-conteudo-dinamico.md)
 Apresentamos nesse vídeo como extrair dados da internet utilizando a funcionalidade de conteúdo dinâmico para alterar a consulta SQL contendo o período de datas a serem extraídas
+
+#microsoft #dataplatform #azure #datafactory #http #etl #integrationruntime #selfhosted #onpremises #mvp #dicadofabinho
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-extrair-dados-conteudo-dinamico](http://www.fabioms.com.br/?url=azure-data-factory-extrair-dados-conteudo-dinamico)  
 
 ## [13. Copiar dados do SAP HANA para Azure Data Lake no Azure Data Factory](/azure-data-factory-copiar-dados-sap-hana.md)
@@ -84,3 +86,7 @@ Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) exi
 ## [17. Executar Pipeline em Loop no Azure Data Factory](/azure-data-factory-pipeline-loop-parametros.md)
 Apresentamos nesse vídeo como executar pipeline dentro de uma interação loop para modular e reaproveitar tarefas executadas, nesse caso, a extração de vários arquivos compactados no Github para Azure Data Lake.
 > Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-pipeline-loop-parametros](http://www.fabioms.com.br/?url=azure-data-factory-pipeline-loop-parametros)  
+
+## [18. Como salvar JSON para banco de dados Azure SQL no Azure Data Factory](/azure-data-factory-salvar-json-no-azure-sql.md)
+Apresentamos nesse vídeo como copiar parte do resultado em formato JSON para salvar no banco de dados SQL do Azure utilizando o Azure Data Factory.
+> Assista ao vídeo: [http://www.fabioms.com.br/?url=azure-data-factory-salvar-json-no-azure-sql](http://www.fabioms.com.br/?url=azure-data-factory-salvar-json-no-azure-sql)  
