@@ -1,6 +1,6 @@
-## Como Combinar Valores de Tabelas com Power Query no Azure Data Factory
+## #047 Como combinar valores de tabelas com Power Query no Azure Data Factory
 
-<img src="https://fabioms.com.br/uploads/youtube/7AYLrfdgalc.png" alt="Como Combinar Valores de Tabelas com Power Query no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br/uploads/youtube/Slide47.mp4" alt="#047 Como combinar valores de tabelas com Power Query no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos como utilizar o Power Query do Azure Data Factory para combinar valores de tabelas e salvar o resultado em formato CSV no Azure Blob Storage.
 
@@ -13,7 +13,7 @@ Iremos conhecer as técnicas:
 🔹Combinar valores das tabelas (MERGE);  
 🔹Agregar valores de tabelas (GROUP BY, COUNT, SUM);  
 🔹Criar o Pipeline e adicionar a atividade Power Query;  
-🔹Definir conjunto de dadois de destino (SINK);  
+🔹Definir conjunto de dados de destino (SINK);  
 🔹Salvar os dados em apenas um arquivo de saída (FILE NAME OPTION);  
 🔹Executar o Pipeline utilizando o Runtime padrão;  
 🔹Exibir resultado utilizando a visualização do Azure Blob Storage;  

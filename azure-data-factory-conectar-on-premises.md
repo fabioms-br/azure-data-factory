@@ -1,6 +1,6 @@
-## Conectar Recursos On-premises no Azure Data Factory
+## #040 Como conectar recursos locais no Azure Data Factory
 
-<img src="https://fabioms.com.br/uploads/youtube/-64KFyTnatw.png" alt="Conectar Recursos On-premises no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br/uploads/youtube/Slide40.mp4" alt="#040 Como conectar recursos locais no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como conectar o Azure Data Factory aos recursos computacionais da infraestrutura on-premises utilizando o Integration Runtime Auto-Hospedado (Self-Hosted). 
 

@@ -1,6 +1,6 @@
-## Controle de versão no Azure Data Factory com Azure DevOps
+## #045 Como fazer controle de versão no Azure Data Factory com Azure DevOps
 
-<img src="https://fabioms.com.br/uploads/youtube/XyoCc7Kwnh4.png" alt="Controle de versão no Azure Data Factory com Azure DevOps" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br/uploads/youtube/XyoCc7Kwnh4.mp4" alt="#045 Como fazer controle de versão no Azure Data Factory com Azure DevOps" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como controlar a versão dos objetos do Azure Data Factory utilizando a integração do repositório do Azure DevOps, facilitando na colaboração entre equipes e nas mudanças executadas no código JSON associado.
 

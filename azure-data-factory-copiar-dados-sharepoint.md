@@ -1,6 +1,6 @@
-## Copiar Dados do Sharepoint no Azure Data Factory
+## Como copiar dados do SharePoint no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/eR46yJ-s86w.png" alt="Copiar Dados do Sharepoint no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/eR46yJ-s86w.png" alt="Como copiar dados do SharePoint no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como conceder acesso de aplicativo no Sharepoint para obter os dados de uma lista e armazenar em tabela do banco de dados Azure SQL utilizando o Azure Data Factory.
 
@@ -20,4 +20,4 @@ https://www.fabioms.com.br/?url=github
 😉 Gostou do conteúdo? Inscreva-se também no canal:
 https://www.fabioms.com.br/?url=youtube-subscribe
 
-#microsoft #dataplatform #azure #datafactory #datalake #parquet #etl #dicadofabinho
+#microsoft #dataplatform #azure #datafactory #datalake #parquet #etl #dicadofabinho 
