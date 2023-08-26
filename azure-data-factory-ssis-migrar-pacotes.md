@@ -1,6 +1,6 @@
-## Migrar pacotes Integration Services para Azure Data Factory
+## Como migrar pacotes Integration Services para Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/2y-UqYBTYxE.png" alt="Migrar pacotes Integration Services para Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide19.png" alt="Como migrar pacotes Integration Services para Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Podemos migrar os pacotes do Integration Services para o Azure Data Factory utilizando a ferramenta Microsoft Visual Studio.
 

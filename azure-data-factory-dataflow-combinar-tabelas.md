@@ -1,6 +1,6 @@
 ## Como Combinar Valores de Tabelas com Dataflow no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/g-rBkSb3zUs.png" alt="Como Combinar Valores de Tabelas com Dataflow no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide49.png" alt="Como Combinar Valores de Tabelas com Dataflow no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como utilizar o Data Flow do Azure Data Factory para agregar os valores e combinar tabelas, salvando o resultado em formato CSV no Azure Data Lake.
 

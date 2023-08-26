@@ -1,6 +1,6 @@
 ## Como Extrair contéudo de Arquivo Compactado no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/0BKF_MFyNPY.png" alt="Como Extrair contéudo de Arquivo Compactado no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide95.png" alt="Como Extrair contéudo de Arquivo Compactado no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como extrair conteúdo de arquivo compactado (ZIP) existente no Github e descompactar no Azure Data Lake utilizando Azure Data Factory.
 

@@ -1,6 +1,6 @@
-## O que é Azure Data Factory? Como criar e quanto custa?
+## Como criar e quanto custa o Azure Data Factory
 
-<img src="https://fabioms.com.br/uploads/youtube/80rhAd58q94.png" alt="O que é Azure Data Factory? Como criar e quanto custa?" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br/uploads/youtube/Slide37.png" alt="Como criar e quanto custa o Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo o que é o Azure Data Factory, como criar o recurso no Portal do Azure e identificar os custos antes utilizando a calculadora de preços do Azure.
 

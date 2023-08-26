@@ -1,6 +1,6 @@
-## Do Azure Data Factory ao Powerbi | MVPConf 2020
+## Palestra Do Azure Data Factory ao Powerbi do MVPConf 2020
 
-<img src="https://fabioms.com.br//uploads/youtube/aQph-ZrYI-Q.png" alt="Do Azure Data Factory ao Powerbi | MVPConf 2020" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide34.png" alt="Palestra Do Azure Data Factory ao Powerbi do MVPConf 2020" title="Azure Data Factory" width="320"/>
 
 #tbt de hoje iremos conhecer nesse vídeo a palestra que realizei no evento MVPConf 2020.
 Aproveito para convidá-los para o MVPConf 2021 que ocorrerá semana que vem nos dias 9,10 e 11, totalmente online e onde estarei novamente ministrando com vários profissionais de qualidade em diversas trilhas de conhecimento.

@@ -1,6 +1,6 @@
-## #098 Como executar Pipeline em Loop no Azure Data Factory
+## Como executar Pipeline em Loop no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/Slide98.mp4" alt="#098 Como executar Pipeline em Loop no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide98.png" alt="Como executar Pipeline em Loop no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como executar pipeline dentro de uma interação loop para modular e reaproveitar tarefas executadas, nesse caso, a extração de vários arquivos compactados no Github para Azure Data Lake.
 

@@ -1,6 +1,6 @@
-## #047 Como combinar valores de tabelas com Power Query no Azure Data Factory
+## Como combinar valores de tabelas com Power Query no Azure Data Factory
 
-<img src="https://fabioms.com.br/uploads/youtube/Slide47.mp4" alt="#047 Como combinar valores de tabelas com Power Query no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br/uploads/youtube/Slide50.png" alt="Como combinar valores de tabelas com Power Query no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos como utilizar o Power Query do Azure Data Factory para combinar valores de tabelas e salvar o resultado em formato CSV no Azure Blob Storage.
 

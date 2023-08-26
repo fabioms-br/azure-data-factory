@@ -1,6 +1,6 @@
 ## Como ler arquivo XML de nota fiscal eletrônica no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/eNCwKQRIzY4.png" alt="Como ler arquivo XML de nota fiscal eletrônica no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide27.png" alt="Como ler arquivo XML de nota fiscal eletrônica no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como ler o arquivo XML de nota fiscal eletrônica armazenado no Azure Blob Storage e carregar seu conteúdo no Azure SQL Database.
 

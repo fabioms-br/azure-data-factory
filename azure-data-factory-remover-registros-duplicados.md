@@ -1,6 +1,6 @@
-## Remover Registros Duplicados no Azure Data Factory
+## Como remover registros duplicados no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/S9TWmV1O_fg.png" alt="Remover Registros Duplicados no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide75.png" alt="Como remover registros duplicados no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como carregar planilhas eletrônicas do Azure Data Lake Storage removendo os registros duplicados, e configurando o gatilho para executar quando um novo arquivo é criado.
 

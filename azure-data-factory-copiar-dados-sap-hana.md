@@ -1,6 +1,6 @@
 ## Copiar dados do SAP HANA para Azure Data Lake no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/nfKJqGX5K4o.png" alt="Copiar dados do SAP HANA para Azure Data Lake no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide70.png" alt="Copiar dados do SAP HANA para Azure Data Lake no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como copiar os dados existentes do banco de dados SAP HANA para um arquivo em formato Parquet no Azure Data Lake Storage utilizando o Azure Data Factory.
 

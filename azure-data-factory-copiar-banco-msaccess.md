@@ -1,6 +1,6 @@
 ## Como Copiar Dados do Banco de Dados MS Access | Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/lzc39fZea30.png" alt="Como Copiar Dados do Banco de Dados MS Access | Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide44.png" alt="Como Copiar Dados do Banco de Dados MS Access | Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como copiar dados de um banco de dados MS Access existente em um servidor on-premises para o Azure SQL Database.
 

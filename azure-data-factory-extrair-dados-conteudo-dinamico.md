@@ -1,6 +1,6 @@
-## Extrair Dados por conteúdo Dinâmico no Azure Data Factory
+## Como extrair dados por conteúdo Dinâmico no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/youtube/nJhTiIY-e7k.png" alt="Extrair Dados por conteúdo Dinâmico no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide67.png" alt="Como extrair dados por conteúdo Dinâmico no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo como extrair dados da internet utilizando a funcionalidade de conteúdo dinâmico para alterar a consulta SQL contendo o período de datas a serem extraídas.
 

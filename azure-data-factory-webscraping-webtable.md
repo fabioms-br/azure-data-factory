@@ -1,6 +1,6 @@
-## #069 Como Fazer Web Scraping no Azure Data Factory
+## Como Fazer Web Scraping no Azure Data Factory
 
-<img src="https://fabioms.com.br//uploads/daily-posts/Slide69.mp4" alt="#069 Como Fazer Web Scraping no Azure Data Factory" title="Azure Data Factory" width="320"/>
+<img src="https://fabioms.com.br//uploads/youtube/Slide64.png" alt="Como Fazer Web Scraping no Azure Data Factory" title="Azure Data Factory" width="320"/>
 
 Apresentamos nesse vídeo a técnica de garinpar dados conhecida como web scraping utilizando o Azure Data Factory, extraindo os valores de cotações da bolsa de valores em tabela de página da internet.
 
